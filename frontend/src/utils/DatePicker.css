@@ -1,0 +1,21 @@
+/* Center the DatePicker component */
+.date-card {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.date-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the card header */
+.date-card .card-header {
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #d37e08;
+  color: white;
+}

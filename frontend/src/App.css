@@ -1,13 +1,30 @@
-.App {
-  text-align: center;
-  width: 1400px;
-  max-width: 90%;
-  margin: auto;
+/* App.css */
+
+/* Container for the entire app */
+.app-container {
+  background-color: #f8f9fa;
+  min-height: 100vh;
+  padding: 20px;
+  background-color: blanchedalmond;
 }
 
-.sparklines {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 20px;
+/* Title styling */
+.title {
+  color: #be4a10;
+  font-weight: 700;
+  font-size: 2rem;
 }
 
+/* Card that holds the overview */
+.overview-card {
+  border: none;
+  border-radius: 8px;
+}
+
+/* Header of the overview card */
+.overview-header {
+  background-color: #385c7b;
+  color: white;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
