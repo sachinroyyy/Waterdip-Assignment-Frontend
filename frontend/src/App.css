@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+  width: 1400px;
+  max-width: 90%;
+  margin: auto;
+}
+
+.sparklines {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
